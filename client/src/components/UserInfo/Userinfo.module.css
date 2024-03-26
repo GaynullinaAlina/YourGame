@@ -1,0 +1,14 @@
+.userCard {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  color: #f3e59c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.userCard span {
+  font-size: 1.2em;
+  width: max-content;
+}

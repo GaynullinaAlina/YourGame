@@ -1,0 +1,38 @@
+.modal {
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+	color: #F3E59C;
+	/* background: linear-gradient(to bottom right, #3B3FDE 0%, #090B6D 100%); */
+	background-color: #fa6a6a;
+	background-color: #3B3FDE;
+	padding: 20px;
+	Width: 640px;
+    Height: 340px;
+}
+
+.text{
+	height: 30%;
+	text-align: center;
+}
+
+.progress, .inputBtn {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.inputBtn > input {
+	margin-bottom: 10px;
+}
+
+.progressFill {
+	height: 5px;
+	background-color: #4caf50;
+}
+.progressEmpty {
+	width: 100%;
+	background-color: white;
+}

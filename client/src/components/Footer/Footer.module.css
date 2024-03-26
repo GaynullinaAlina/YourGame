@@ -1,0 +1,5 @@
+.footer {
+  height: 70px;
+  /* background-color: #2d30b7; */
+  background: linear-gradient(to bottom right, #3B3FDE 0%, #090B6D 100%);
+}

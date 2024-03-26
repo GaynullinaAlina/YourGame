@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: #6e78d7; */
+  /* background: linear-gradient(to bottom right, #5658ef 0%, #171992 100%); */
+  min-height: 100vh;
+  background-image: url('/game.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* button {
+  background-color: #f3e59c;
+  border: none;
+}
+button:hover {
+  background-color: #ddd193;
+}
+button:active {
+  background-color: #c3b984;
+} */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 140px);
+}
+

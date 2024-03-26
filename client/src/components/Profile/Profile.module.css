@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1000px;
+  height: 70vh;
+  /* background-color: #2d30b7; */
+  background: linear-gradient(to bottom right, #3B3FDE 0%, #090B6D 100%);
+  border: solid 2px #f3e59c;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: calc(100% - 10px - 24px);
+  flex-grow: 1;
+}
+.span {
+  color: #f3e59c;
+  font-size: 24px;
+  text-align: center;
+}

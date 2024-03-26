@@ -1,0 +1,8 @@
+.wraper {
+	border: solid 2px #F3E59C;
+	width: 600px;
+	/* background-color: #2D30B7; */
+	background: linear-gradient(to bottom right, #3B3FDE 0%, #090B6D 100%);
+	padding: 20px;
+	color: #F3E59C;
+}

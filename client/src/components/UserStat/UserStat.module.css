@@ -1,0 +1,13 @@
+.wraper::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+.wraper {
+  border: solid 0.1px #f3e59c;
+  background-color: #2d30b7;
+  /* background: linear-gradient(to bottom right, #3B3FDE 0%, #090B6D 100%); */
+  padding: 20px;
+  color: #f3e59c;
+  width: 70%;
+  overflow: auto;
+}
