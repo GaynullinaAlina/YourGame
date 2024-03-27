@@ -4,13 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon server.js --ext js,jsx",
-    "mig": "npx sequelize db:migrate",
-    "unmig": "npx sequelize db:migrate:undo:all",
-    "remig": "npm run unmig && npm run mig",
-    "seed": "npx sequelize db:seed:all",
-    "base": "npm run mig && npm run seed",
-    "rebase": "npm run remig && npm run seed",
-    "db": "npx sequelize db:drop && npx sequelize db:create"
+    "initdb": "npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all "
   },
   "devDependencies": {
     "eslint": "^8.57.0",
